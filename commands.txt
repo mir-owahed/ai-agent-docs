@@ -1,0 +1,45 @@
+# Create .env file
+MODEL=ollama/llama3.2:1b
+API_BASE=http://localhost:11434
+
+```
+621  git clone https://github.com/crewAIInc/crewAI-examples.git
+  622  ls
+  623  cd crewAI-examples/
+
+  625  cd meta_quest_knowledge/
+  626  ls
+  627  code .
+  628  uv venv
+  629  source .venv/bin/activate
+  630  uv tool install crewai
+  631  uv lock
+  632  uv sync
+  633  ollama ls
+  634  ollama run llama3.2:1b
+  635  crewai install
+  
+  638  crewai run
+  639  source .venv/bin/activate
+  640  ollama ls
+  641  ollama run llama3.2:1b
+  642  uv lock
+  643  uv sync
+  644  crewai install
+  645  crewai run
+  
+  648  crewai run
+  649  history
+  650  htop
+  651  git remote -V
+  652  git remote -v
+  653  crewai run
+  654  git init
+  655  git add .
+  656  git commit -m "docs agent"
+  657  git remote add origin git@github.com:mir-owahed/docs-ai-agent.git
+  658  git remote -v
+  659  git branch -M main
+  660  git push -u origin main
+  661  git push -u origin main --force
+```
