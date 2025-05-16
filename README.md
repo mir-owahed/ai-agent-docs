@@ -1,3 +1,23 @@
+## Create a DOCS AI Agent using local LLMs and CrewAI
+
+```
+git clone https://github.com/mir-owahed/docs-ai-agent.git
+cd docs-ai-agent/
+ls
+code .
+uv venv
+source .venv/bin/activate  
+ 
+uv lock
+uv sync
+ollama ls
+ollama ps
+ollama run llama3.2:1b
+crewai install
+crewai run
+```
+
+
 # PDF Knowledge Example
 
 This project demonstrates how to create a Crew of AI agents and tasks using crewAI. It uses a PDF knowledge source to answer user questions based on the content of the PDF. The PDF is loaded from a file and the knowledge source is initialized with it. The project also includes a custom task that uses the knowledge source to answer user questions. You can modify the question in the `main.py` file.
@@ -47,21 +67,3 @@ You can select from multiple different knowledge sources such as:
 * JSON files
 * Sources supported by [docling](https://github.com/DS4SD/docling)
 
-## Create a DOCS AI Agent using loca LLMs
-
-```
-685  git clone git@github.com:mir-owahed/docs-ai-agent.git
-  686  cd docs-ai-agent/
-  687  ls
-  688  code .
-  689  uv venv
-  690  source .venv/bin/activate  
- 
-  700  uv lock
-  701  uv sync
-  702  ollama ls
-  703  ollama ps
-  704  ollama run llama3.2:1b
-  705  crewai install
-  706  crewai run
-```
