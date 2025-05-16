@@ -46,3 +46,22 @@ You can select from multiple different knowledge sources such as:
 * CSV & Excel files
 * JSON files
 * Sources supported by [docling](https://github.com/DS4SD/docling)
+
+## Create a DOCS AI Agent using loca LLMs
+
+```
+685  git clone git@github.com:mir-owahed/docs-ai-agent.git
+  686  cd docs-ai-agent/
+  687  ls
+  688  code .
+  689  uv venv
+  690  source .venv/bin/activate  
+ 
+  700  uv lock
+  701  uv sync
+  702  ollama ls
+  703  ollama ps
+  704  ollama run llama3.2:1b
+  705  crewai install
+  706  crewai run
+```
